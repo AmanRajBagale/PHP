@@ -1,0 +1,156 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT MusicStore (store,songs)>
+<!ATTLIST MusicStore
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT store (storeName,address+,telephone+,website,logo,motto)>
+<!ATTLIST store
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT songs (song)+>
+<!ATTLIST songs
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeName (#PCDATA)>
+<!ATTLIST storeName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address
+  xmlns CDATA #FIXED ''
+  location NMTOKEN #REQUIRED>
+
+<!ELEMENT telephone (#PCDATA)>
+<!ATTLIST telephone
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT website (#PCDATA)>
+<!ATTLIST website
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT logo EMPTY>
+<!ATTLIST logo
+  xmlns CDATA #FIXED ''
+  photo NMTOKEN #REQUIRED>
+
+<!ELEMENT motto (#PCDATA)>
+<!ATTLIST motto
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT song (name,artist,length,writer,producer,director,editor,recorded,
+                released,genre,awards,
+                (albumSold|earning|rank|totalConcert|weeksOnBillboard|nomination|trending|weeksOnSpotify|viewsOnYoutube|albumCost|remix|likesOnYoutube|dislikeonYoutube|yearendChart|certifications))>
+<!ATTLIST song
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''
+  album CDATA #REQUIRED>
+
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist
+  xmlns CDATA #FIXED ''
+  memberscount CDATA #REQUIRED>
+
+<!ELEMENT length (#PCDATA)>
+<!ATTLIST length
+  xmlns CDATA #FIXED ''
+  format NMTOKEN #REQUIRED>
+
+<!ELEMENT writer (#PCDATA)>
+<!ATTLIST writer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT producer (#PCDATA)>
+<!ATTLIST producer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST director
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT editor (#PCDATA)>
+<!ATTLIST editor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT recorded (#PCDATA)>
+<!ATTLIST recorded
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT released (#PCDATA)>
+<!ATTLIST released
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT awards (#PCDATA)>
+<!ATTLIST awards
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT albumSold (#PCDATA)>
+<!ATTLIST albumSold
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT earning (#PCDATA)>
+<!ATTLIST earning
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rank (#PCDATA)>
+<!ATTLIST rank
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT totalConcert (#PCDATA)>
+<!ATTLIST totalConcert
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT weeksOnBillboard (#PCDATA)>
+<!ATTLIST weeksOnBillboard
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nomination (#PCDATA)>
+<!ATTLIST nomination
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT trending (#PCDATA)>
+<!ATTLIST trending
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT viewsOnYoutube (#PCDATA)>
+<!ATTLIST viewsOnYoutube
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT albumCost (#PCDATA)>
+<!ATTLIST albumCost
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT remix (#PCDATA)>
+<!ATTLIST remix
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT weeksOnSpotify (#PCDATA)>
+<!ATTLIST weeksOnSpotify
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT likesOnYoutube (#PCDATA)>
+<!ATTLIST likesOnYoutube
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dislikeonYoutube (#PCDATA)>
+<!ATTLIST dislikeonYoutube
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT yearendChart (#PCDATA)>
+<!ATTLIST yearendChart
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT certifications (#PCDATA)>
+<!ATTLIST certifications
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,465 @@
+MusicStore
+{
+    border: solid;
+    background-color: darkviolet;
+}
+store
+{
+    float: left;
+    width: fit-content;
+    padding: 80px;
+}
+storeName
+{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(97, 51, 51);
+    font: size 50px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: burlywood;
+    border: solid 5px;
+    border-bottom: none;
+}
+/*Styling the contents of store address*/
+address
+{
+    display: block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    padding: 5px;
+    font-weight: bold;
+    border-left: solid 5px;
+    background-color: darkkhaki;
+    border-right: solid 4px;
+}
+/*Styling the contents of store telephone*/
+telephone
+{
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    border-right: solid 4px;
+    border-left: solid 5px;
+    font-weight: bold;
+    background-color: lightsteelblue;
+}
+/*Styling the contents of store website*/
+website
+{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: maroon;
+    border-right: solid 4px;
+    border-left: solid 5px;
+    font-weight: bold;
+    background-color: mediumorchid;
+}
+logo{
+	background: url("logo.png"); 
+	width:130px; 
+	height:130px;  
+	background-size: 130px; 
+	position:absolute; 
+	top:1px;  margin: 5px;
+	margin-left: 3px;  
+	border-radius: 3px;
+	font-weight: bold; 
+	opacity: 90%;-
+    float: left;
+}
+/*Styling the contents of store moto*/
+motto 
+{
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: midnightblue;
+    border-right: solid 4px;
+    border-left: solid 5px;
+    font-weight: bold;
+    background-color: olivedrab;
+}
+/*Styling the contents of origins Tag*/
+songs
+{
+    display: block;
+    border:solid 2px orange;
+    width: 100%;
+    height: 80pc;
+    border-right: none;
+    border-left: none;
+    background-color: orange;
+}
+/*Styling the contents song of origins Tag*/
+song
+{
+    display: block;
+    border: solid 3px #964b00;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    background-color: plum;
+    float: left;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+/*Styling the contents of song Tag*/
+song::before
+{
+    content: "ThisisActing";
+    text-align: right;
+    font-family: "system-ui";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+/*Styling the contents of Information  Tag of the Song*/
+/*Styling the contents of Tag of the Song*/
+name::before
+{
+    content:"name:";
+    font-weight:bold;
+    font size:25px;
+}
+name
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: serif;
+}
+artist::before
+{
+    content:"artist:";
+    font-weight:bold;
+    font size: 25px;
+}
+artist
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+length::before
+{
+    content:"length:";
+    font-weight: bold;
+    font size: 25px;
+}
+length
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+writer::before
+{
+    content:"writer:";
+    font-weight: bold;
+    font size: 25px;
+}
+writer 
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+producer::before
+{
+    content:"producer:";
+    font-weight: bold;
+    font size: 25px;
+}
+producer
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+director::before
+{
+    content:"director:";
+    font-weight: bold;
+    font size: 25px;
+}
+director
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+editor::before
+{
+    content:"editor:";
+    font-weight: bold;
+    font size: 25px;
+}
+editor
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+recorded::before
+{
+    content:"recorded:";
+    font-weight: bold;
+    font size: 25px;
+}
+recorded
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+released::before
+{
+    content:"released:";
+    font-weight: bold;
+    font size: 25px;
+}
+released
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+genre::before
+{
+    content:"genre:";
+    font-weight: bold;
+    font size: 25px;
+}
+genre
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+awards::before
+{
+    content:"awards:";
+    font-weight: bold;
+    font size: 25px;
+}
+awards
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+weeksOnBillboard::before
+{
+    content:"weeksOnBillboard:";
+    font-weight: bold;
+    font size: 25px;
+}
+weeksOnBillboard
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+rank::before
+{
+    content:"rank:";
+    font-weight: bold;
+    font size: 25px;
+}
+rank
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+earning::before
+{
+    content:"earning:";
+    font-weight: bold;
+    font size: 25px;
+}
+earning
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+totalConcert::before
+{
+    content:"totalConcert:";
+    font-weight: bold;
+    font size: 25px;
+}
+totalConcert
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+albumSold::before
+{
+    content:"albumSold:";
+    font-weight: bold;
+    font size: 25px;
+}
+albumSold
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+nomination::before
+{
+    content:"nomination:";
+    font-weight: bold;
+    font size: 25px;
+}
+nomination
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+trending::before
+{
+    content:"trending:";
+    font-weight: bold;
+    font size: 25px;
+}
+trending
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+weeksOnSpotify::before
+{
+    content:"weeksOnSpotify:";
+    font-weight: bold;
+    font size: 25px;
+}
+weeksOnSpotify
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+viewsOnYoutube::before
+{
+    content:"viewsOnYoutube:";
+    font-weight: bold;
+    font size: 25px;
+}
+viewsOnYoutube
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+albumCost::before
+{
+    content:"albumCost:";
+    font-weight: bold;
+    font size: 25px;
+}
+albumCost
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+remix::before
+{
+    content:"remix:";
+    font-weight: bold;
+    font size: 25px;
+}
+remix
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+likesOnYoutube::before
+{
+    content:"likesOnYoutube:";
+    font-weight: bold;
+    font size: 25px;
+}
+likesOnYoutube
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+dislikeonYoutube::before
+{
+    content:"dislikeonYoutube:";
+    font-weight: bold;
+    font size: 25px;
+}
+dislikeonYoutube
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+yearendChart::before
+{
+    content:"yearendChart:";
+    font-weight: bold;
+    font size: 25px;
+}
+yearendChart
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}
+certifications::before
+{
+    content:"certifications:";
+    font-weight: bold;
+    font size: 25px;
+}
+certifications
+{
+    display: list-item;
+    text-align: center;
+    list-style: disc inside;
+    font-family: sans-serif;
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Author: Aman Raj Bagale, Date: 5/6/2021-->
+<!DOCTYPE MusicStore SYSTEM "catalog_19030705.dtd">
+<?xml-stylesheet type="text/css" href="catalog_19030705.css"?>
+
+<MusicStore>
+    <store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:noNamespaceSchemaLocation= " catalog_19030705.xsd">
+        <storeName>Bootcamp music shop</storeName>
+        <address location="kathmandu"> Location:Samakushi </address>
+        <address location="Tanahun">Aanboo-Khaireni</address>
+        <telephone type="landline">Contact us :4366629</telephone>
+        <telephone type="mobile">9856320912</telephone>
+        <website>Visit us at:www.bootcampmusicshop.com</website>
+        <logo photo="logo"/>
+        <motto>Heal Your Soul</motto>
+    </store>
+
+    <songs>
+        <song id="m1" >
+            <name album="Changes">Yummy</name>
+            <artist memberscount ="1">Justin Bieber</artist>
+            <length format="00:00">Length: 3:28</length>
+            <writer>Songwriter:Justin Bieber, Asley Bloyd </writer>
+            <producer>Producer:Poo Bear </producer>
+            <director>Director:Kid Luther</director>
+            <editor>Jordan Taylor</editor>
+            <recorded>Recorded: 2020</recorded>
+            <released>Released: 3 January 2020</released>
+            <genre>Pop</genre>
+            <awards>Awards: Grammy</awards>
+            <weeksOnBillboard>Total Weeks: 30</weeksOnBillboard>
+        </song>
+
+        <song id="m2" >
+            <name album="My Dear Melancholy">call out my name</name>
+            <artist memberscount ="1">The Weekend</artist>
+            <length format="00:00">Length:3:58 </length>
+            <writer>Songwriter:The Weekend</writer>
+            <producer>Producer:Saul Germaine</producer>
+            <director>Director:Grant Singer</director>
+            <editor>Nate Gross for Exile Edit</editor>
+            <recorded>Recorded:2018</recorded>
+            <released>Released:12 Apr 2018</released>
+            <genre>Instrumental Hip-Hop</genre>
+            <awards>Awards:Juno Award for songwriter of the year </awards>
+            <rank> Rank:First </rank>
+        </song>
+
+
+        <song id="m3" >
+            <name album="Sheer Heart Attack">Killer Queen</name>
+            <artist memberscount ="7">Queen</artist>
+            <length format="00:00">Length: </length>
+            <writer>Songwriter:Queen</writer>
+            <producer>Producer:McG, Mary Viola, Zack Schiller </producer>
+            <director>Director:Mcg</director>
+            <editor>Roy Thomas Baker</editor>
+            <recorded>Recorded: 1974</recorded>
+            <released>Released:1 Aug 2008 </released>
+            <genre>Glam rock</genre>
+            <awards>Awards:2nd Best British Newcomer </awards>
+            <earning>Total Money Generated:2M Dollor </earning>
+        </song>
+
+        <song id="m4" >
+           <name album="After Hours">Blinding Lights</name>
+            <artist memberscount ="1">The Weekend</artist>
+            <length format="00:00">Length: 2:69</length>
+            <writer>Songwriter:Tesfaye, Balche</writer>
+            <producer>Producer:Martin, Holfer</producer>
+            <director>Director:Martin</director>
+            <editor>Janne Vartia, Tim montana</editor>
+            <recorded>Recorded:2020</recorded>
+            <released>Released:2020</released>
+            <genre>Hip-Hop</genre>
+            <awards>Awards:Top Selling Awards</awards>
+            <totalConcert>Total Live Concert:22</totalConcert>
+           
+        </song>
+
+        <song id="m5" >
+            <name album="Map of the Soul">Boy with LUV</name>
+            <artist memberscount ="7">BTS, Halsey</artist>
+            <length format="00:00">Length: 4:12</length>
+            <writer>Songwriter:BTS</writer>
+            <producer>Producer:Pdegg</producer>
+            <director>Director:YongSeok Choi </director>
+            <editor>jinSil Park, BoNa Kim</editor>
+            <recorded>Recorded:2019</recorded>
+            <released>Released:12 April 2019</released>
+            <genre>K-Pop, Pop funk</genre>
+            <awards>Awards:MTV Vedio Music Award for Best K-Pop</awards>
+            <albumSold>Total Album Sold:50M</albumSold>
+        </song>
+
+        <song id="m6">
+            <name album="Changes">Come Around Me</name>
+            <artist memberscount ="1">Justin Bieber </artist>
+            <length format="00:00">Length: 3.21</length>
+            <writer>Songwriter:Justin Bieber</writer>
+            <producer>Producer:Poo Bear</producer>
+            <director>Director:Nick DeMoura</director>
+            <editor>Jordan Orme</editor>
+            <recorded>Recorded:2020</recorded>
+            <released>Released:13 Feb 2020</released>
+            <genre>Rhythm and blues, Pop</genre>
+            <awards>Awards: Best Pop Solo Performance</awards>
+            <nomination>Title: Best Pop Solo Performance</nomination>
+        </song>
+
+        <song id="m7">
+            <name album="Dusk Till Dawn (The Remixes)">Dusk Till Dawn</name>
+            <artist memberscount ="1">Zayn </artist>
+            <length format="00:00">Length:4:28</length>
+            <writer>Songwriter:Zayn Malik, Sia</writer>
+            <producer>Producer:Greg Kurstin</producer>
+            <director>Director:Robert Rodriguez</director>
+            <editor>Greg</editor>
+            <recorded>Recorded:2017</recorded>
+            <released>Released:8 September 2017</released>
+            <genre>pop</genre>
+            <awards>Awards: MTV Movie Award for Best Breakthrough Performance</awards>
+            <trending>1st Week Trend:1st on trending</trending>
+
+        </song>
+
+        <song id="m8">
+            <name album="Midnight Memories">You and I</name>
+            <artist memberscount ="5">Zayn, Niall, Liam, Luois, Harry </artist>
+            <length format="00:00">Length:4:04 </length>
+            <writer>Songwriter:Julian Bunetta, Jamie Scott</writer>
+            <producer>Producer: John Ryan</producer>
+            <director>Director:Julian Bunetta</director>
+            <editor>John</editor>
+            <recorded>Recorded: 2014</recorded>
+            <released>Released: 18 Apr 2014</released>
+            <genre>soft rock, Pop, Children's Music</genre>
+            <awards>Awards: Teen Choice Award for Choice Music</awards>
+            <weeksOnSpotify>Total Weeks:24</weeksOnSpotify>
+        </song>
+
+        <song id="m9">
+            <name album="Mac and Devin Go to High School">Young Wild and Free</name>
+            <artist memberscount ="3">Snoop Dogg, Wiz Khalifa, Bruno Mars</artist>
+            <length format="00:00">Length: 3.27</length>
+            <writer>Songwriter:Wiz khalifa, Snoop Dogg</writer>
+            <producer>Producer:The Smeezingtons</producer>
+            <director>Director:Dylan Brown</director>
+            <editor>David</editor>
+            <recorded>Recorded:2011</recorded>
+            <released>Released:11 October 2011</released>
+            <genre>Hard Rock</genre>
+            <awards>Awards: Grammy Award for Best Rap Song</awards>
+            <viewsOnYoutube>Total Views:625M</viewsOnYoutube>
+        </song>
+        
+        <song id="m10">
+            <name album="Astroworld">Sicko Mode</name>
+            <artist memberscount ="4">Travis Scott, Drake, Swaee Lee, Big Hawk </artist>
+            <length format="00:00">Length: 5:15</length>
+            <writer>Songwriter:Jacques Webster II, John Hawkiins, Khalif Brown, Tim Gomringer</writer>
+            <producer>Producer: Chahayed, Hit-Boy, OZ, inc</producer>
+            <director>Director:dave Meyers, Travis Scott</director>
+            <editor>Sam</editor>
+            <recorded>Recorded: 2018</recorded>
+            <released>Released: 21 August 2018</released>
+            <genre>Hip-pop</genre>
+            <awards>Awards: BET Award for Best Collaboration </awards>
+            <albumCost>Total Album Cost:25.12 Dollor </albumCost>
+        </song>
+
+        <song id="m11">
+            <name album="After Hours">Save Your Tears</name>
+            <artist memberscount ="1">The Weekend </artist>
+            <length format="00:00">Length: 3.12</length>
+            <writer>Songwriter:Abel Tesfaye, Jason Quenneville, Max Martin, Oscar Holter</writer>
+            <producer>Producer: Max Martin, Oscar Holter, The Weekend</producer>
+            <director>Director: R.J. Sanchez</director>
+            <editor>Miles Trahan</editor>
+            <recorded>Recorded: 2019-2020</recorded>
+            <released>Released: 9 August 2020</released>
+            <genre>RandB, Soul</genre>
+            <awards>Awards: Juno Award for Songwriter of the Year </awards>
+            <remix>Remixed With:Ariana Grande</remix>
+        </song>
+
+        <song id="m12">
+            <name album="When We All Fall Asleep, Where Do We GO?">Bad Guy</name>
+            <artist memberscount ="1">Billie Eilish </artist>
+            <length format="00:00">Length: 3.14</length>
+            <writer>Songwriter:Billie Eilish O'Connell, Finneas O'Connell</writer>
+            <producer>Producer: Finneas O'Connell</producer>
+            <director>Director:Dave Meyers</director>
+            <editor>Finneas</editor>
+            <recorded>Recorded: 2019</recorded>
+            <released>Released: 29 March 2019</released>
+            <genre>pop-trap, dance-pop</genre>
+            <awards>Awards: Global Hit </awards>
+            <likesOnYoutube>Total Like:16M </likesOnYoutube>
+        </song>
+
+        <song id="m13">
+            <name album="Sweetener">God is a Women</name>
+            <artist memberscount ="1">Ariana Grande </artist>
+            <length format="00:00">Length: 3.17</length>
+            <writer>Songwriter:Ariana Grande, llya Salman</writer>
+            <producer>Producer: llya</producer>
+            <director>Director:Dave Meyers</director>
+            <editor>Nathan Scherrer</editor>
+            <recorded>Recorded: 2018</recorded>
+            <released>Released: 13 July 2018</released>
+            <genre>pop</genre>
+            <awards>Awards: Best Female Singer </awards>
+            <dislikeonYoutube>Total Dislike:455k </dislikeonYoutube>
+        </song>
+
+        <song id="m14">
+            <name album="American Teen">Young, Dumb and Broke</name>
+            <artist memberscount ="1">Khalid</artist>
+            <length format="00:00">Length: 4:08</length>
+            <writer>Songwriter:khalid Robinson, Joel Little, Talay Riley </writer>
+            <producer>Producer:Joel Little</producer>
+            <director>Director:Calmatic</director>
+            <editor>Talay</editor>
+            <recorded>Recorded:2016</recorded>
+            <released>Released:13 June 2017</released>
+            <genre>RandB, soul</genre>
+            <awards>Awards:VH1 TV award</awards>
+            <yearendChart>Austraila(ARIA):38</yearendChart>
+        </song>
+
+        <song id="m15">
+            <name album="Pandora Sounds Like You 2017 (Live)">Congratulation</name>
+            <artist memberscount ="2">Post Malone, Quavo </artist>
+            <length format="00:00">Length: 3:40</length>
+            <writer>Songwriter:Austin Post, Quavious Marshall, Adam Feeney</writer>
+            <producer>Producer:James Defina, Frank Dukes, Louis Bell</producer>
+            <director>Director:James Defina</director>
+            <editor>Chris</editor>
+            <recorded>Recorded:2001</recorded>
+            <released>Released:31 January 2017</released>
+            <genre>Hip-Hop, Rap</genre>
+            <awards>Awards:Ten Billboard Music Awards</awards>
+            <certifications>Canada(Region):Diamond</certifications>
+        </song>
+    </songs>
+</MusicStore>

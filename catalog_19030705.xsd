@@ -1,0 +1,110 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MusicStore">
+    <xs:annotation>
+      <xs:documentation>Author: Aman Raj Bagale, Date: 5/6/2021</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="store">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="storeName"/>
+              <xs:element name="address" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="location" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="telephone" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="type" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="website"/>
+              <xs:element name="logo">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="photo"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="motto"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="songs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="album" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="memberscount" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="length">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="format" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="writer"/>
+                    <xs:element type="xs:string" name="producer"/>
+                    <xs:element type="xs:string" name="director"/>
+                    <xs:element type="xs:string" name="editor"/>
+                    <xs:element type="xs:string" name="recorded"/>
+                    <xs:element type="xs:string" name="released"/>
+                    <xs:element type="xs:string" name="genre"/>
+                    <xs:element type="xs:string" name="awards"/>
+                    <xs:element type="xs:string" name="weeksOnBillboard" minOccurs="0"/>
+                    <xs:element type="xs:string" name="rank" minOccurs="0"/>
+                    <xs:element type="xs:string" name="earning" minOccurs="0"/>
+                    <xs:element type="xs:string" name="totalConcert" minOccurs="0"/>
+                    <xs:element type="xs:string" name="albumSold" minOccurs="0"/>
+                    <xs:element type="xs:string" name="nomination" minOccurs="0"/>
+                    <xs:element type="xs:string" name="trending" minOccurs="0"/>
+                    <xs:element type="xs:string" name="weeksOnSpotify" minOccurs="0"/>
+                    <xs:element type="xs:string" name="viewsOnYoutube" minOccurs="0"/>
+                    <xs:element type="xs:string" name="albumCost" minOccurs="0"/>
+                    <xs:element type="xs:string" name="remix" minOccurs="0"/>
+                    <xs:element type="xs:string" name="likesOnYoutube" minOccurs="0"/>
+                    <xs:element type="xs:string" name="dislikeonYoutube" minOccurs="0"/>
+                    <xs:element type="xs:string" name="yearendChart" minOccurs="0"/>
+                    <xs:element type="xs:string" name="certifications" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
